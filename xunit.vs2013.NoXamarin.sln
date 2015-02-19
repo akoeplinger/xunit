@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.xunit.runner.tdnet", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.msbuild", "src\xunit.runner.msbuild\xunit.runner.msbuild.csproj", "{785D4014-E42E-4E08-922F-3DE40DC7D9A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.xunit.runner.msbuild", "test\test.xunit.runner.msbuild\test.xunit.runner.msbuild.csproj", "{E1A71E21-6AC8-40FF-A034-9963E890AB70}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.console", "src\xunit.console\xunit.console.csproj", "{19C75545-5E0E-4E38-9995-511ED2DF6D30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.xunit1", "test\test.xunit1\test.xunit1.csproj", "{61615231-0BD8-43FA-903E-27F5A5A5E3F6}"
@@ -102,14 +100,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.execution.win8", "src\xunit.execution.win8\xunit.execution.win8.csproj", "{141612DE-2D07-4968-ABAF-09FD05B7951E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.utility.win8", "src\xunit.runner.utility.win8\xunit.runner.utility.win8.csproj", "{4F42FE0E-04D0-4E84-9C4C-91B9C6649E51}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.execution.universal", "src\xunit.execution.universal\xunit.execution.universal.csproj", "{87DA8400-E929-4A02-A0CC-A8DD5404E3ED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.utility.universal", "src\xunit.runner.utility.universal\xunit.runner.utility.universal.csproj", "{9D0DAA1D-F2DF-4A8A-9D0B-FFAA091A4EE7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.execution.wp8", "src\xunit.execution.wp8\xunit.execution.wp8.csproj", "{AA80CCD7-6DD1-4122-9A85-B8F9FD9F113E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunit.runner.utility.wp8", "src\xunit.runner.utility.wp8\xunit.runner.utility.wp8.csproj", "{F9692B98-F6E5-48DA-B9EF-28E86F6DAEFD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{52472A94-ACC4-4C12-B9AA-0B6B12E12A48}"
 	ProjectSection(SolutionItems) = preProject
@@ -207,10 +197,6 @@ Global
 		{4F42FE0E-04D0-4E84-9C4C-91B9C6649E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F42FE0E-04D0-4E84-9C4C-91B9C6649E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F42FE0E-04D0-4E84-9C4C-91B9C6649E51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87DA8400-E929-4A02-A0CC-A8DD5404E3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87DA8400-E929-4A02-A0CC-A8DD5404E3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87DA8400-E929-4A02-A0CC-A8DD5404E3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87DA8400-E929-4A02-A0CC-A8DD5404E3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9D0DAA1D-F2DF-4A8A-9D0B-FFAA091A4EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D0DAA1D-F2DF-4A8A-9D0B-FFAA091A4EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D0DAA1D-F2DF-4A8A-9D0B-FFAA091A4EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
