@@ -142,6 +142,7 @@ namespace Xunit.Sdk
             }
         }
 
+#pragma warning disable 0420
         /// <inheritdoc/>
         public string UniqueID
         {
@@ -154,6 +155,7 @@ namespace Xunit.Sdk
                     uniqueID;
             }
         }
+#pragma warning restore 0420
 
         /// <inheritdoc/>
         public virtual void Dispose()

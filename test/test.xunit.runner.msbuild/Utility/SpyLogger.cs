@@ -4,6 +4,18 @@ using Microsoft.Build.Framework;
 using Microsoft.Build.Utilities;
 using NSubstitute;
 
+class MyTask : Task
+{
+    public MyTask(string taskName)
+    {
+    }
+
+    public override bool Execute ()
+    {
+        return true; 
+    }
+}
+
 public class SpyLogger : TaskLoggingHelper
 {
     readonly bool includeSourceInformation;
@@ -11,7 +23,7 @@ public class SpyLogger : TaskLoggingHelper
     public List<string> Messages = new List<string>();
 
     private SpyLogger(IBuildEngine buildEngine, string taskName, bool includeSourceInformation)
-        : base(buildEngine, taskName)
+        : base(new MyTask(taskName))
     {
         this.includeSourceInformation = includeSourceInformation;
 

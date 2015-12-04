@@ -10,6 +10,7 @@ namespace Xunit
         public AppDomainManager_NoAppDomain(string assemblyFileName)
         {
             this.assemblyFileName = assemblyFileName;
+            System.Diagnostics.Debug.WriteLine(this.assemblyFileName);
         }
 
         public TObject CreateObject<TObject>(AssemblyName assemblyName, string typeName, params object[] args)

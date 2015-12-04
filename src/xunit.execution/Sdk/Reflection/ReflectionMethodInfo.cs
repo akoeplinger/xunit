@@ -23,6 +23,7 @@ namespace Xunit.Sdk
         public ReflectionMethodInfo(MethodInfo method)
         {
             MethodInfo = method;
+            System.Diagnostics.Debug.WriteLine(TypeListComparer);
         }
 
         /// <inheritdoc/>
